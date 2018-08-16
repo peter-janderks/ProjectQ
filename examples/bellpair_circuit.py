@@ -8,6 +8,5 @@ drawing_engine = CircuitDrawer()
 eng = MainEngine(drawing_engine)
 
 create_bell_pair(eng)
-
 eng.flush()
 print(drawing_engine.get_latex())
